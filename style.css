@@ -1,0 +1,99 @@
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-header-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 120px;
+    height: 120px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.a-home {
+    width: 150px;
+    height: 50px;
+}
+
+.a-header {
+    width: 150px;
+    height: 50px;
+}
+
+.banner {
+    width: 1250px;
+    height: 400px;
+}
+
+#featured img {
+    width: 200px;
+    height: 175px;
+}
+
+#featured {
+    display: flex;
+    justify-content: space-around;
+}
+
+.featured-art {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ul-mark {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    list-style-type: none;
+}
+
+.sect-mark-1 img {
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+.sect-mark-2 img {
+    width: 575px;
+    height: 175px;
+}
+
+.sect-mark-1 {
+    width: 25%;
+}
+
+.sect-mark-2 {
+    width: 50%;
+}
+
+#marketing {
+    display: flex;
+    align-content: space-between;
+}
+
+.main-left {
+    width: 70%;
+}
+
+.main-right {
+    width: 30%;
+}
+
+.main-right ul {
+    list-style-type: none;
+}
+
+#main {
+    display: flex;
+    justify-content: space-around;
+}
