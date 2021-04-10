@@ -1,3 +1,3 @@
 # autonomy
 
-:rocket: https://github.com/alfredojry/autonomy.git
+:rocket: https://alfredojry.github.io/autonomy/
