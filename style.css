@@ -1,3 +1,11 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -6,6 +14,8 @@ header {
 .container-header-1 {
     display: flex;
     justify-content: space-between;
+    background-color: #180E0C;
+    border: 1px solid #707070;
 }
 
 #logo {
@@ -22,16 +32,28 @@ header {
 .a-home {
     width: 150px;
     height: 50px;
+    background-color: #56c9d6;
+    text-align: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
 }
 
 .a-header {
     width: 150px;
     height: 50px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 15px;
+    box-sizing: border-box;
 }
 
 .banner {
-    width: 1250px;
-    height: 400px;
+    width: 1265px;
+    height: 450px;
+    max-width: 100%;
 }
 
 #featured img {
@@ -42,6 +64,15 @@ header {
 #featured {
     display: flex;
     justify-content: space-around;
+    padding: 90px;
+}
+
+#marketing h2 {
+    color: #C27159;
+}
+
+#marketing p{
+    color: #7A503E;
 }
 
 .featured-art {
@@ -76,17 +107,22 @@ header {
     width: 50%;
 }
 
+.sect-mark-2 img {
+    max-width: 100%;
+}
+
 #marketing {
     display: flex;
     align-content: space-between;
+    background-color: #372019;
 }
 
 .main-left {
-    width: 70%;
+    max-width: 70vw;
 }
 
 .main-right {
-    width: 30%;
+    max-width: 30vw;
 }
 
 .main-right ul {
@@ -96,4 +132,117 @@ header {
 #main {
     display: flex;
     justify-content: space-around;
+    background-color: #261611;
+}
+
+#main h2 {
+    color: #C27159;
+}
+
+#main p{
+    color: #7A503E;
+}
+
+footer {
+    background-color: #261611;
+    color: #7A503E;
+}
+
+@media (max-width: 480px) {
+    .container-header-1 {
+        display: block;
+        height: 60px;
+        width: 480;
+    }
+    .banner {
+        max-width: 100vw;
+        height: 134px;
+    }
+    .container-header-1 nav {
+        display: none;
+    }
+    #logo {
+        height: 60px;
+    }
+    #featured img {
+        width: 146px;
+        height: 128px;
+    }
+    h2 {
+        font-size: 13px;
+    }
+    p {
+        font-size: 10px;
+    }
+    #featured {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 0px;
+        margin: 30px;
+        box-sizing: border-box;
+    }
+    #art-featured {
+        width: 146px;
+        margin: 7px;
+    }
+    #featured p {
+        width: 146px;
+    }
+    #marketing {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        padding: 0px;
+        margin: 30px;
+        box-sizing: border-box;
+    }
+    .sect-mark-1 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .sect-mark-1 img {
+        width: 70px;
+        height:70px;
+        float: left;
+        margin: 10px;
+    }
+    .sect-mark-2 img {
+        width: 300px;
+        height:90px;
+        float: none;
+    }
+    .sect-mark-2 {
+        width: 100%;
+        margin: 30px;
+    }
+    .sect-mark-2 p {
+        max-width: 300px;
+    }
+    #main {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin: 30px;
+        box-sizing: border-box;
+    }
+    #main p {
+        font-size: 8px;
+        margin: 10px;
+        max-width: 300px;
+    }
+    #main a{
+        font-size: 8px;
+    }
+    #main section {
+        max-width: 480px;
+    }
+    footer {
+        width: 480px;
+        padding: 30px;
+        box-sizing: border-box;
+    }
 }
